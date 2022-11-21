@@ -1,0 +1,35 @@
+nav > ul > li {
+	background-color: #636e72;
+	margin:1px;
+	width: 10vw;
+	list-style: none;
+
+	float:left; /* Faz os elementos flutuarem à esquerda */
+	text-align: center;
+}
+
+nav > ul > li{
+	transition: 2s;
+}
+nav > ul > li:hover{
+	background-color: #353b48;
+}
+nav > ul > li > a{
+	transition: 2s;
+}
+nav > ul > li > a:hover{
+	color: #f5f6fa;
+	font-size: 20px;
+}
+
+.clearfix{
+  clear:left;
+}
+
+
+
+/*nav > a{
+	margin: 5px;
+	background-color: #636e72;
+	color: #f5f6fa;
+}*/
